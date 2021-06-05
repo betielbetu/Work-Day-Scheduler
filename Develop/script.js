@@ -49,7 +49,7 @@ var createTask = function (taskText, hourDiv) {
 }
 
 var auditTasks = function () {
-    /* update the background of each row based on the time of day */
+    
 
     var currentHour = moment().hour();
     $(".task-info").each(function () {
@@ -97,12 +97,7 @@ $(".task").click(function () {
         replaceTextarea($(this));
     })
 
-    // convert to a textarea element if the time hasn't passed
-    /*
-    var time = $(this).closest(".task-info").attr("id");
-    const momentHour = moment().hour();
-    if (parseInt(time) >= momentHour) {
-    */
+    
         // create a textInput element that includes the current task
         var text = $(this).text();
         var textInput = $("<textarea>")
@@ -112,7 +107,7 @@ $(".task").click(function () {
         // add the textInput element to the parent div
         $(this).html(textInput);
         textInput.trigger("focus");
-    //}
+    
 })
 
 // save button click handler
