@@ -3,18 +3,20 @@ body {
   font-size: 16px;
   line-height: 1;
   color: black;
+  background-color: darksalmon;
  
 }
 
 
 h1 {
   font-family: 'Playfair Display', serif;
-  color: #536B78;
+  color: #b6f50a;
+  background-color: darkgrey;
 }
 
 textarea {
   background: transparent;
-  border: darkgrey;
+  border: rgb(102, 100, 100);
   resize: none;
   padding: 10px;
   margin: 10px;
@@ -38,7 +40,7 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid #6692ac;
+  border-top: 1px solid darkorange;
 }
 
 .hour {
@@ -51,15 +53,15 @@ textarea {
 
 
 .future {
-  background-color: #c8e0f1;
+  background-color: #e7f5eb;
 }
 
-/* .saveBtn {
-  background-color: rgba(11, 65, 136, 0.75);
+.saveBtn {
+  background-color: darkgrey;
   border: none;
   color: rgb(190, 101, 101); 
-} */
+}
 
 .saveBtn:hover {
-  background-color: darkgrey;
+  background-color: rgb(53, 52, 52);
 }
