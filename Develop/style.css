@@ -2,10 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1;
-  color: #666666;
+  color: black;
  
-  
 }
+
 
 h1 {
   font-family: 'Playfair Display', serif;
@@ -14,7 +14,7 @@ h1 {
 
 textarea {
   background: transparent;
-  border: none;
+  border: darkgrey;
   resize: none;
   padding: 10px;
   margin: 10px;
@@ -38,36 +38,28 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid #CEE5F2;
+  border-top: 1px solid #6692ac;
 }
 
 .hour {
-  border-right: 1px solid #CEE5F2;
+  border-right: 1px solid #06090a;
   margin: 10px;
   padding: 10px;
   text-align: center;
 }
 
-.past {
-  background-color: #ACCBE1;
-  color: black;
-}
 
-.present {
-  background-color: #7C98B3;
-  color: white;
-}
 
 .future {
-  background-color: #ACCBE1;
+  background-color: #c8e0f1;
 }
 
-.saveBtn {
-  background-color: rgba(99, 112, 129, 0.75);
+/* .saveBtn {
+  background-color: rgba(11, 65, 136, 0.75);
   border: none;
-  color: #ffffff; 
-}
+  color: rgb(190, 101, 101); 
+} */
 
 .saveBtn:hover {
-  background-color: rgba(99, 112, 129, 1);
+  background-color: darkgrey;
 }
