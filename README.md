@@ -34,9 +34,8 @@ SO THAT I can manage my time effectively
 
 
 
-## Review
+## Deployment
 
-You are required to submit BOTH of the following for review:
 
 * The URL of the functional: https://betielbetu.github.io/Work-Day-Scheduler/
 
