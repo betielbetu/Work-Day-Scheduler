@@ -40,7 +40,7 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the functional: https://betielbetu.github.io/Work-Day-Scheduler/
 
-* The URL of the GitHub repository.:
+* The URL of the GitHub repository.: https://github.com/betielbetu/Work-Day-Scheduler
 
 - - -
 © 2021 Betiel Mengesha. All Rights Reserved.
