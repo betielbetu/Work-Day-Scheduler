@@ -1,6 +1,6 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Task
 
 A simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -15,31 +15,20 @@ SO THAT I can manage my time effectively
 ```
 
 
-## Acceptance Criteria
+## Usage
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+* This calendar displays work hours of the day between 9AM - 5PM.
+* All of time blocks are color coded to indicate past(gray), present(red), or future(green).
+* All time blocks have input fields and save button. 
 
 
 
-### The following animation demonstrates the application functionality:
+
+### Screenshot of the homepage
 
 
 
-![day planner demo](./Assets/gify.gif)
+![day planner demo](./Assets/screenshot.png)
 
 
 
@@ -49,9 +38,9 @@ THEN the saved events persist
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional:
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository.:
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Betiel Mengesha. All Rights Reserved.
